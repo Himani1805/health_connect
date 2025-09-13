@@ -6,7 +6,7 @@ const ContactPage = () => {
     <div>
       <img
         className="w-full h-[400px] px-4 py-2"
-        src="src/assets/banner_contatct_us.png"
+        src="https://res.cloudinary.com/dgbymqjtk/image/upload/v1757668084/banner_contatct_us_idghsw.webp"
         alt="banner"
       />
       <Contact />
