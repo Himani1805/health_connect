@@ -81,7 +81,7 @@ const Appointments = () => {
                         <img
                             src={appointment.image}
                             alt={appointment.doctor.name}
-                            className='w-full h-32 rounded-lg object-cover bg-gray-100'
+                            className='w-full  rounded-lg object-cover bg-gray-100'
                         />
                     </div>
 
