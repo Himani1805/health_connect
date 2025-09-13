@@ -121,7 +121,7 @@ const Navbar = () => {
                                 onClick={() => setUserMenuOpen(!userMenuOpen)}
                             >
                                 <User className="text-red-600" />
-                                <span className="font-medium uppercase">{userName}</span>
+                                <span className="font-medium uppercase hidden sm:inline ">{userName}</span>
                                 <ChevronDown
                                     className='text-gray-500 text-sm'
                                 />{" "}
