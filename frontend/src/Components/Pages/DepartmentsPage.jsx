@@ -4,7 +4,7 @@ import departmentsImage from '../../utils/imageData.js'
 
 const DepartmentsPage = () => {
     return (
-        <>
+        <div>
             <PopularDepartments isHomePage={false} />
             {/* Our Department Section */}
             <div className=" max-w-6xl mx-auto px-4 py-8">
@@ -27,7 +27,7 @@ const DepartmentsPage = () => {
                     ))}
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

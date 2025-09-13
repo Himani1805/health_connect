@@ -46,7 +46,7 @@ const PopularDepartments = ({ isHomePage }) => {
 
 
     return (
-        <div className=' bg-gray-50 py-12 text-center'>
+        <div className=' bg-gray-50 py-12 px-5 text-center'>
             {isHomePage ?
                 <>
                     <h4 className='text-gray-500 uppercase text-sm mb-2'>Why Choose Us?</h4>
@@ -65,7 +65,7 @@ const PopularDepartments = ({ isHomePage }) => {
                     <div
                         key={index}
                         onClick={() => handleDepartmentClick(department.title)}
-                        className='cursor-pointer flex flex-col items-center text-center p-6 rounded-lg shadow-'
+                        className='cursor-pointer flex flex-col items-center  text-center p-6 rounded-lg shadow-'
                         style={{
                             background: "linear-gradient(to top, #ff0844 0%, #ffb199 100%)",
                             color: "white"
