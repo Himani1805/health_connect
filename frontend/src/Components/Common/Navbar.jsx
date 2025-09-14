@@ -117,11 +117,11 @@ const Navbar = () => {
                             {/* Username + ChevronDown button */}
                             {/* <div className="flex items-center gap-2 text-gray-800"> */}
                             <button
-                                className='flex items-center gap-2 text-gray-800 focus:outline-none'
+                                className='flex items-center gap-2 text-gray-800 focus:outline-none '
                                 onClick={() => setUserMenuOpen(!userMenuOpen)}
                             >
                                 <User className="text-red-600" />
-                                <span className="font-medium uppercase hidden sm:inline ">{userName}</span>
+                                <span className="font-medium uppercase ">{userName}</span>
                                 <ChevronDown
                                     className='text-gray-500 text-sm'
                                 />{" "}
@@ -134,14 +134,14 @@ const Navbar = () => {
                                         to="/appointments"
                                         className="flex items-center gap-2 px-4 py-2 text-gray-800 hover:bg-gray-100 rounded-md"
                                     >
-                                        <Calendar className="text-red-500" />
+                                        <Calendar className="min-w-10 mr-2 text-red-500" />
                                         My Appointments
                                     </Link>
                                     <button
                                         onClick={handleLogout}
                                         className="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 rounded-md"
                                     >
-                                        <LogOut className="text-red-500" />
+                                        <LogOut className="text-red-500 min-w-10" />
                                         Logout
                                     </button>
                                 </div>
